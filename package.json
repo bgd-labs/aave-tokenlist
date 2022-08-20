@@ -4,7 +4,7 @@
   "description": "A uniswap compatible tokenlist containg all aave v2 and v3 tokens.",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.ts",
+    "generate": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

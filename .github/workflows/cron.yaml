@@ -41,7 +41,7 @@ jobs:
           else
             git config --global user.name 'Cache bot'
             git config --global user.email 'cache-bot@bgdlabs.com'
-            git add src
+            git add .
             git commit -am "fix(cache): automated cache update"
             git push
           exit

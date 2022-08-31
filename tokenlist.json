@@ -16,8 +16,8 @@
       "description": "Tokens that earn interest on the Aave Protocol V3"
     }
   },
-  "timestamp": "2022-08-20T13:02:55.521Z",
-  "version": { "major": 2, "minor": 0, "patch": 0 },
+  "timestamp": "2022-08-31T10:26:27.724Z",
+  "version": { "major": 2, "minor": 0, "patch": 1 },
   "tokens": [
     {
       "symbol": "USDT",
@@ -593,6 +593,22 @@
       "tags": ["atokenv2"],
       "decimals": 18,
       "name": "Aave interest bearing 1INCH",
+      "chainId": 1
+    },
+    {
+      "symbol": "LUSD",
+      "address": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "LUSD Stablecoin",
+      "chainId": 1
+    },
+    {
+      "symbol": "aLUSD",
+      "address": "0xce1871f791548600cb59efbefFC9c38719142079",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing LUSD",
       "chainId": 1
     },
     {
@@ -1281,6 +1297,22 @@
       "tags": ["atokenv3"],
       "decimals": 18,
       "name": "Aave interest bearing agEUR",
+      "chainId": 137
+    },
+    {
+      "symbol": "miMATIC",
+      "address": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "miMATIC",
+      "chainId": 137
+    },
+    {
+      "symbol": "aPolMIMATIC",
+      "address": "0xeBe517846d0F36eCEd99C735cbF6131e1fEB775D",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing miMATIC",
       "chainId": 137
     },
     {

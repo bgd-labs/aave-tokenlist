@@ -16,8 +16,8 @@
       "description": "Tokens that earn interest on the Aave Protocol V3"
     }
   },
-  "timestamp": "2022-08-31T10:26:27.724Z",
-  "version": { "major": 2, "minor": 0, "patch": 1 },
+  "timestamp": "2022-09-02T01:05:21.850Z",
+  "version": { "major": 2, "minor": 0, "patch": 2 },
   "tokens": [
     {
       "symbol": "USDT",
@@ -552,7 +552,7 @@
       "address": "0xa693b19d2931d498c5b318df961919bb4aee87a5",
       "tags": ["underlying"],
       "decimals": 6,
-      "name": "UST (Wormhole)",
+      "name": "UST",
       "chainId": 1
     },
     {
@@ -1529,6 +1529,38 @@
       "tags": ["atokenv3"],
       "decimals": 18,
       "name": "Aave interest bearing sAVAX",
+      "chainId": 43114
+    },
+    {
+      "symbol": "FRAX",
+      "address": "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "Frax",
+      "chainId": 43114
+    },
+    {
+      "symbol": "aAvaFRAX",
+      "address": "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing FRAX",
+      "chainId": 43114
+    },
+    {
+      "symbol": "MAI",
+      "address": "0x5c49b268c9841aff1cc3b0a418ff5c3442ee3f3b",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "Mai Stablecoin",
+      "chainId": 43114
+    },
+    {
+      "symbol": "aAvaMAI",
+      "address": "0x8Eb270e296023E9D92081fdF967dDd7878724424",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing MAI",
       "chainId": 43114
     },
     {

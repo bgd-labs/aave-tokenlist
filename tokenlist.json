@@ -16,8 +16,8 @@
       "description": "Tokens that earn interest on the Aave Protocol V3"
     }
   },
-  "timestamp": "2022-09-02T01:05:21.850Z",
-  "version": { "major": 2, "minor": 0, "patch": 2 },
+  "timestamp": "2022-09-16T01:12:34.606Z",
+  "version": { "major": 2, "minor": 0, "patch": 3 },
   "tokens": [
     {
       "symbol": "USDT",
@@ -1313,6 +1313,22 @@
       "tags": ["atokenv3"],
       "decimals": 18,
       "name": "Aave interest bearing miMATIC",
+      "chainId": 137
+    },
+    {
+      "symbol": "stMATIC",
+      "address": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "Staked MATIC (PoS)",
+      "chainId": 137
+    },
+    {
+      "symbol": "aPolSTMATIC",
+      "address": "0xEA1132120ddcDDA2F119e99Fa7A27a0d036F7Ac9",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing stMATIC",
       "chainId": 137
     },
     {

@@ -16,8 +16,8 @@
       "description": "Tokens that earn interest on the Aave Protocol V3"
     }
   },
-  "timestamp": "2022-09-16T01:12:34.606Z",
-  "version": { "major": 2, "minor": 0, "patch": 3 },
+  "timestamp": "2022-09-20T01:11:19.961Z",
+  "version": { "major": 2, "minor": 0, "patch": 4 },
   "tokens": [
     {
       "symbol": "USDT",
@@ -1329,6 +1329,22 @@
       "tags": ["atokenv3"],
       "decimals": 18,
       "name": "Aave interest bearing stMATIC",
+      "chainId": 137
+    },
+    {
+      "symbol": "MaticX",
+      "address": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "Liquid Staking Matic (PoS)",
+      "chainId": 137
+    },
+    {
+      "symbol": "aPolMATICX",
+      "address": "0x80cA0d8C38d2e2BcbaB66aA1648Bd1C7160500FE",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing MaticX",
       "chainId": 137
     },
     {

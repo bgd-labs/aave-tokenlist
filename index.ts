@@ -1,3 +1,5 @@
+import * as dotenv from "dotenv";
+dotenv.config();
 import fs from "fs";
 import prettier from "prettier";
 import { schema, TokenInfo } from "@uniswap/token-lists";
@@ -7,6 +9,7 @@ import { ChainId, UiPoolDataProvider } from "@aave/contract-helpers";
 import { Contract, ethers } from "ethers";
 import isEqual from "lodash/isEqual";
 import erc20_abi from "./abi/erc20_abi.json";
+import { updatePokt } from "./pokt";
 
 const RPC_PROVIDERS = {
   [ChainId.mainnet]: "https://eth-mainnet.public.blastapi.io",
@@ -116,7 +119,9 @@ export const markets: Market[] = [
 async function main() {
   const cache = require("./tokenlist.json");
   const tokens: TokenInfo[] = [];
+  const allowList: { [chainId: number]: string[] } = {};
   for (const market of markets) {
+    if (!allowList[market.chainId]) allowList[market.chainId] = [];
     const uiPoolDataProvider = new UiPoolDataProvider({
       chainId: market.chainId,
       provider: market.provider,
@@ -158,6 +163,7 @@ async function main() {
           name: nameUnderlying,
           chainId: market.chainId,
         });
+        allowList[market.chainId].push(reserve.underlyingAsset);
       }
       tokens.push({
         symbol: await erc20AToken.symbol(),
@@ -167,6 +173,11 @@ async function main() {
         name: `Aave interest bearing ${reserve.symbol}`,
         chainId: market.chainId,
       });
+      allowList[market.chainId].push(
+        reserve.aTokenAddress,
+        reserve.stableDebtTokenAddress,
+        reserve.variableDebtTokenAddress
+      );
     }
   }
   if (isEqual(cache.tokens || {}, tokens)) {
@@ -214,6 +225,7 @@ async function main() {
         filepath: "./tokenlist.json",
       })
     );
+    await updatePokt(allowList);
   }
   if (validator.errors) {
     throw validator.errors.map((error) => {

@@ -16,8 +16,8 @@
       "description": "Tokens that earn interest on the Aave Protocol V3"
     }
   },
-  "timestamp": "2022-09-20T01:11:19.961Z",
-  "version": { "major": 2, "minor": 0, "patch": 4 },
+  "timestamp": "2022-09-22T13:52:14.148Z",
+  "version": { "major": 2, "minor": 0, "patch": 3 },
   "tokens": [
     {
       "symbol": "USDT",

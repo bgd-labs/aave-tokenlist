@@ -9,7 +9,6 @@ import { ChainId, UiPoolDataProvider } from "@aave/contract-helpers";
 import { Contract, ethers } from "ethers";
 import isEqual from "lodash/isEqual";
 import erc20_abi from "./abi/erc20_abi.json";
-import { AaveV2Avalanche } from "@bgd-labs/aave-address-book";
 import { updatePokt } from "./pokt";
 
 const RPC_PROVIDERS = {
@@ -71,7 +70,7 @@ export const markets: Market[] = [
     name: "AaveV2Avalanche",
     chainId: ChainId.avalanche,
     UI_POOL_DATA_PROVIDER: "0x88be7eC36719fadAbdE4307ec61EAB6fda788CEF",
-    LENDING_POOL_ADDRESS_PROVIDER: AaveV2Avalanche.POOL_ADDRESSES_PROVIDER,
+    LENDING_POOL_ADDRESS_PROVIDER: "0xb6A86025F0FE1862B372cb0ca18CE3EDe02A318f",
     version: 2,
   },
   {

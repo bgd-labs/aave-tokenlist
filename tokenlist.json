@@ -16,8 +16,8 @@
       "description": "Tokens that earn interest on the Aave Protocol V3"
     }
   },
-  "timestamp": "2022-09-23T07:27:53.537Z",
-  "version": { "major": 2, "minor": 0, "patch": 4 },
+  "timestamp": "2022-11-03T16:30:14.842Z",
+  "version": { "major": 2, "minor": 0, "patch": 5 },
   "tokens": [
     {
       "symbol": "USDT",
@@ -938,6 +938,470 @@
       "decimals": 18,
       "name": "Aave interest bearing G-UNI",
       "chainId": 1
+    },
+    {
+      "symbol": "AAVE",
+      "address": "0x0b7a69d978dda361db5356d4bd0206496afbdd96",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "AAVE",
+      "chainId": 5
+    },
+    {
+      "symbol": "aAAVE",
+      "address": "0x5fDF09EE06219f96EffE1b4CC47f44A630C5A358",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing AAVE",
+      "chainId": 5
+    },
+    {
+      "symbol": "BAT",
+      "address": "0x515614aa3d8f09152b1289848383a260c7d053ff",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "BAT",
+      "chainId": 5
+    },
+    {
+      "symbol": "aBAT",
+      "address": "0x41355876CEC93c43cE4e784ce1b5f5e62557D2e2",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing BAT",
+      "chainId": 5
+    },
+    {
+      "symbol": "BUSD",
+      "address": "0xa7c3bf25ffea8605b516cf878b7435fe1768c89b",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "BUSD",
+      "chainId": 5
+    },
+    {
+      "symbol": "aBUSD",
+      "address": "0xabd2878A23cba83F1e9790635e09e494b8E21333",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing BUSD",
+      "chainId": 5
+    },
+    {
+      "symbol": "DAI",
+      "address": "0x75ab5ab1eef154c0352fc31d2428cef80c7f8b33",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "DAI",
+      "chainId": 5
+    },
+    {
+      "symbol": "aDAI",
+      "address": "0x31f30d9A5627eAfeC4433Ae2886Cf6cc3D25E772",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing DAI",
+      "chainId": 5
+    },
+    {
+      "symbol": "ENJ",
+      "address": "0x1057dcaa0b66dfbcec5241fd51f4326c210f201f",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "ENJ",
+      "chainId": 5
+    },
+    {
+      "symbol": "aENJ",
+      "address": "0x3DB016c45090337e989C882F47Cf1Dc51fB6dE1B",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing ENJ",
+      "chainId": 5
+    },
+    {
+      "symbol": "KNC",
+      "address": "0x54bc1d59873a5abde98cf76b6ecf4075ff65d685",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "KNC",
+      "chainId": 5
+    },
+    {
+      "symbol": "aKNC",
+      "address": "0x7D5e39D49Ca107b49Fd4c6cF777B04bdA79a675C",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing KNC",
+      "chainId": 5
+    },
+    {
+      "symbol": "LINK",
+      "address": "0x7337e7ff9abc45c0e43f130c136a072f4794d40b",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "LINK",
+      "chainId": 5
+    },
+    {
+      "symbol": "aLINK",
+      "address": "0x8c8cc9b893b6962409BCEaAFCA95d1044ce809bc",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing LINK",
+      "chainId": 5
+    },
+    {
+      "symbol": "MANA",
+      "address": "0x8d9eac6f25470effd68f0ad22993cb2813c0c9b9",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "MANA",
+      "chainId": 5
+    },
+    {
+      "symbol": "aMANA",
+      "address": "0x71d4C18Ce2bd9889E17099B1552D0b92FAe15731",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing MANA",
+      "chainId": 5
+    },
+    {
+      "symbol": "MKR",
+      "address": "0x90be02599452fbc1a3d47e9eb62895330cfa05ed",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "MKR",
+      "chainId": 5
+    },
+    {
+      "symbol": "aMKR",
+      "address": "0xd77332d9FA5299010b403bB4f768ACb2d2E8A8a6",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing MKR",
+      "chainId": 5
+    },
+    {
+      "symbol": "REN",
+      "address": "0x3160f3f3b55ef85d0d27f04a2d74d426c32de842",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "REN",
+      "chainId": 5
+    },
+    {
+      "symbol": "aREN",
+      "address": "0x2A4B55A3229470BE6Bc78f1b534Cfe8064107407",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing REN",
+      "chainId": 5
+    },
+    {
+      "symbol": "SNX",
+      "address": "0xfc1ab0379db4b6ad8bf5bc1382e108a341e2eabb",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "SNX",
+      "chainId": 5
+    },
+    {
+      "symbol": "aSNX",
+      "address": "0x1Fad08D99F66fe709f4c4d7D81268d6fd380a20f",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing SNX",
+      "chainId": 5
+    },
+    {
+      "symbol": "SUSD",
+      "address": "0x4e62eb262948671590b8d967bde048557bdd03ed",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "SUSD",
+      "chainId": 5
+    },
+    {
+      "symbol": "aSUSD",
+      "address": "0xb997a147657a9295137e54c6C19ECF9e97Eb4b36",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing SUSD",
+      "chainId": 5
+    },
+    {
+      "symbol": "TUSD",
+      "address": "0xc048c1b6ac47393f073da2b3d5d1cc43b94891fd",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "TUSD",
+      "chainId": 5
+    },
+    {
+      "symbol": "aTUSD",
+      "address": "0x37416BA913324Bc0eEB60f27d5897d8A6A75028b",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing TUSD",
+      "chainId": 5
+    },
+    {
+      "symbol": "UNI",
+      "address": "0x981d8acaf6af3a46785e7741d22fbe81b25ebf1e",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "UNI",
+      "chainId": 5
+    },
+    {
+      "symbol": "aUNI",
+      "address": "0x6Ea7776f7d217b41Dc44684Da6f9FcD4eb9642C3",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing UNI",
+      "chainId": 5
+    },
+    {
+      "symbol": "USDC",
+      "address": "0x9fd21be27a2b059a288229361e2fa632d8d2d074",
+      "tags": ["underlying"],
+      "decimals": 6,
+      "name": "USDC",
+      "chainId": 5
+    },
+    {
+      "symbol": "aUSDC",
+      "address": "0x935c0F6019b05C787573B5e6176681282A3f3E05",
+      "tags": ["atokenv2"],
+      "decimals": 6,
+      "name": "Aave interest bearing USDC",
+      "chainId": 5
+    },
+    {
+      "symbol": "USDT",
+      "address": "0x65e2fe35c30ec218b46266f89847c63c2eda7dc7",
+      "tags": ["underlying"],
+      "decimals": 6,
+      "name": "USDT",
+      "chainId": 5
+    },
+    {
+      "symbol": "aUSDT",
+      "address": "0xDCb84F51dd4BeA1ce4b6118F087B260a71BB656c",
+      "tags": ["atokenv2"],
+      "decimals": 6,
+      "name": "Aave interest bearing USDT",
+      "chainId": 5
+    },
+    {
+      "symbol": "WBTC",
+      "address": "0xf4423f4152966ebb106261740da907662a3569c5",
+      "tags": ["underlying"],
+      "decimals": 8,
+      "name": "WBTC",
+      "chainId": 5
+    },
+    {
+      "symbol": "aWBTC",
+      "address": "0x2f8274ce7fB939014e657e480e9ed3e1131f242B",
+      "tags": ["atokenv2"],
+      "decimals": 8,
+      "name": "Aave interest bearing WBTC",
+      "chainId": 5
+    },
+    {
+      "symbol": "WETH",
+      "address": "0xcca7d1416518d095e729904aaea087dba749a4dc",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "chainId": 5
+    },
+    {
+      "symbol": "aWETH",
+      "address": "0x22404B0e2a7067068AcdaDd8f9D586F834cCe2c5",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing WETH",
+      "chainId": 5
+    },
+    {
+      "symbol": "YFI",
+      "address": "0x6c260f702b6bb9ac989da4b0fcbe7fddf8f749c4",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "YFI",
+      "chainId": 5
+    },
+    {
+      "symbol": "aYFI",
+      "address": "0xAF299560160896eF72219F0e2Ea67d4653cE8251",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing YFI",
+      "chainId": 5
+    },
+    {
+      "symbol": "ZRX",
+      "address": "0xacfd03ddf9c68015e1943fb02b60c5df56c4cb9e",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "ZRX",
+      "chainId": 5
+    },
+    {
+      "symbol": "aZRX",
+      "address": "0x22af6D8C0cD02a4EbdF6f79B6181DcC565f0b18e",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing ZRX",
+      "chainId": 5
+    },
+    {
+      "symbol": "xSUSHI",
+      "address": "0x45e18e77b15a02a31507e948a546a509a50a2376",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "xSUSHI",
+      "chainId": 5
+    },
+    {
+      "symbol": "axSUSHI",
+      "address": "0x8C1d95Ed70e16664b0CFF72c31a536a68474A4eA",
+      "tags": ["atokenv2"],
+      "decimals": 18,
+      "name": "Aave interest bearing xSUSHI",
+      "chainId": 5
+    },
+    {
+      "symbol": "DAI",
+      "address": "0xdf1742fe5b0bfc12331d8eaec6b478dfdbd31464",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "DAI",
+      "chainId": 5
+    },
+    {
+      "symbol": "aEthDAI",
+      "address": "0x310839bE20Fc6a8A89f33A59C7D5fC651365068f",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing DAI",
+      "chainId": 5
+    },
+    {
+      "symbol": "LINK",
+      "address": "0x07c725d58437504ca5f814ae406e70e21c5e8e9e",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "LINK",
+      "chainId": 5
+    },
+    {
+      "symbol": "aEthLINK",
+      "address": "0x6A639d29454287B3cBB632Aa9f93bfB89E3fd18f",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing LINK",
+      "chainId": 5
+    },
+    {
+      "symbol": "USDC",
+      "address": "0xa2025b15a1757311bfd68cb14eaefcc237af5b43",
+      "tags": ["underlying"],
+      "decimals": 6,
+      "name": "USDC",
+      "chainId": 5
+    },
+    {
+      "symbol": "aEthUSDC",
+      "address": "0x1Ee669290939f8a8864497Af3BC83728715265FF",
+      "tags": ["atokenv3"],
+      "decimals": 6,
+      "name": "Aave interest bearing USDC",
+      "chainId": 5
+    },
+    {
+      "symbol": "WBTC",
+      "address": "0x8869dfd060c682675c2a8ae5b21f2cf738a0e3ce",
+      "tags": ["underlying"],
+      "decimals": 8,
+      "name": "WBTC",
+      "chainId": 5
+    },
+    {
+      "symbol": "aEthWBTC",
+      "address": "0xc0ac343EA11A8D05AAC3c5186850A659dD40B81B",
+      "tags": ["atokenv3"],
+      "decimals": 8,
+      "name": "Aave interest bearing WBTC",
+      "chainId": 5
+    },
+    {
+      "symbol": "WETH",
+      "address": "0x2e3a2fb8473316a02b8a297b982498e661e1f6f5",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "WETH",
+      "chainId": 5
+    },
+    {
+      "symbol": "aEthWETH",
+      "address": "0x27B4692C93959048833f40702b22FE3578E77759",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing WETH",
+      "chainId": 5
+    },
+    {
+      "symbol": "USDT",
+      "address": "0xc2c527c0cacf457746bd31b2a698fe89de2b6d49",
+      "tags": ["underlying"],
+      "decimals": 6,
+      "name": "USDT",
+      "chainId": 5
+    },
+    {
+      "symbol": "aEthUSDT",
+      "address": "0x73258E6fb96ecAc8a979826d503B45803a382d68",
+      "tags": ["atokenv3"],
+      "decimals": 6,
+      "name": "Aave interest bearing USDT",
+      "chainId": 5
+    },
+    {
+      "symbol": "AAVE",
+      "address": "0x63242b9bd3c22f18706d5c4e627b4735973f1f07",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "AAVE",
+      "chainId": 5
+    },
+    {
+      "symbol": "aEthAAVE",
+      "address": "0xC4bf7684e627ee069e9873B70dD0a8a1241bf72c",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing AAVE",
+      "chainId": 5
+    },
+    {
+      "symbol": "EURS",
+      "address": "0xaa63e0c86b531e2edfe9f91f6436df20c301963d",
+      "tags": ["underlying"],
+      "decimals": 2,
+      "name": "EURS",
+      "chainId": 5
+    },
+    {
+      "symbol": "aEthEURS",
+      "address": "0xc31E63CB07209DFD2c7Edb3FB385331be2a17209",
+      "tags": ["atokenv3"],
+      "decimals": 2,
+      "name": "Aave interest bearing EURS",
+      "chainId": 5
     },
     {
       "symbol": "DAI",

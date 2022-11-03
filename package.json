@@ -1,7 +1,7 @@
 {
   "name": "aave-tokenlist",
   "version": "1.0.0",
-  "description": "A uniswap compatible tokenlist containg all aave v2 and v3 tokens.",
+  "description": "A uniswap compatible tokenlist containing all aave v2 and v3 tokens.",
   "main": "index.ts",
   "scripts": {
     "generate": "ts-node index.ts",
@@ -17,8 +17,8 @@
     "url": "https://github.com/bgd-labs/aave-tokenlist/issues"
   },
   "homepage": "https://github.com/bgd-labs/aave-tokenlist#readme",
-  "dependencies": {
-    "@aave/contract-helpers": "^1.3.8",
+  "devDependencies": {
+    "@aave/contract-helpers": "^1.9.0",
     "@types/lodash": "^4.14.182",
     "@types/node": "^18.0.4",
     "@types/prettier": "^2.6.3",

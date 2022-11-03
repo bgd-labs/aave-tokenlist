@@ -3,8 +3,9 @@ import { ChainId } from "@aave/contract-helpers";
 const POKT_TOKEN = process.env.POKT_TOKEN;
 
 const CHAIN_ID_TO_RELAY_ID: { [chainId: string]: string } = {
-  [ChainId.avalanche]: "0003",
   [ChainId.mainnet]: "0021",
+  [ChainId.goerli]: "0026",
+  [ChainId.avalanche]: "0003",
   [ChainId.fantom]: "0049",
   [ChainId.polygon]: "0009",
   [ChainId.optimism]: "0053",

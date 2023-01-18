@@ -16,8 +16,8 @@
       "description": "Tokens that earn interest on the Aave Protocol V3"
     }
   },
-  "timestamp": "2022-11-03T16:30:14.842Z",
-  "version": { "major": 2, "minor": 0, "patch": 5 },
+  "timestamp": "2023-01-18T00:57:53.528Z",
+  "version": { "major": 2, "minor": 0, "patch": 6 },
   "tokens": [
     {
       "symbol": "USDT",
@@ -2617,6 +2617,22 @@
       "tags": ["atokenv3"],
       "decimals": 18,
       "name": "Aave interest bearing sUSD",
+      "chainId": 10
+    },
+    {
+      "symbol": "OP",
+      "address": "0x4200000000000000000000000000000000000042",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "Optimism",
+      "chainId": 10
+    },
+    {
+      "symbol": "aOptOP",
+      "address": "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing OP",
       "chainId": 10
     }
   ]

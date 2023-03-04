@@ -16,8 +16,8 @@
       "description": "Tokens that earn interest on the Aave Protocol V3"
     }
   },
-  "timestamp": "2023-02-25T00:58:15.024Z",
-  "version": { "major": 2, "minor": 0, "patch": 7 },
+  "timestamp": "2023-03-04T00:56:00.536Z",
+  "version": { "major": 2, "minor": 0, "patch": 8 },
   "tokens": [
     {
       "symbol": "USDT",
@@ -2201,6 +2201,22 @@
       "tags": ["atokenv3"],
       "decimals": 2,
       "name": "Aave interest bearing EURS",
+      "chainId": 42161
+    },
+    {
+      "symbol": "wstETH",
+      "address": "0x5979d7b546e38e414f7e9822514be443a4800529",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "chainId": 42161
+    },
+    {
+      "symbol": "aArbwstETH",
+      "address": "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing wstETH",
       "chainId": 42161
     },
     {

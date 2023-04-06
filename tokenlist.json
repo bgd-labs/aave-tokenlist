@@ -16,8 +16,8 @@
       "description": "Tokens that earn interest on the Aave Protocol V3"
     }
   },
-  "timestamp": "2023-03-04T00:56:00.536Z",
-  "version": { "major": 2, "minor": 0, "patch": 8 },
+  "timestamp": "2023-04-06T00:50:31.869Z",
+  "version": { "major": 2, "minor": 0, "patch": 9 },
   "tokens": [
     {
       "symbol": "USDT",
@@ -2665,6 +2665,22 @@
       "tags": ["atokenv3"],
       "decimals": 18,
       "name": "Aave interest bearing wstETH",
+      "chainId": 10
+    },
+    {
+      "symbol": "LUSD",
+      "address": "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "LUSD Stablecoin",
+      "chainId": 10
+    },
+    {
+      "symbol": "aOptLUSD",
+      "address": "0x8Eb270e296023E9D92081fdF967dDd7878724424",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing LUSD",
       "chainId": 10
     }
   ]

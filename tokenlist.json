@@ -16,8 +16,8 @@
       "description": "Tokens that earn interest on the Aave Protocol V3"
     }
   },
-  "timestamp": "2023-05-03T00:52:08.375Z",
-  "version": { "major": 2, "minor": 0, "patch": 10 },
+  "timestamp": "2023-05-16T00:52:01.654Z",
+  "version": { "major": 2, "minor": 0, "patch": 11 },
   "tokens": [
     {
       "symbol": "USDT",
@@ -2236,6 +2236,22 @@
       "chainId": 42161
     },
     {
+      "symbol": "MAI",
+      "address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "Mai Stablecoin",
+      "chainId": 42161
+    },
+    {
+      "symbol": "aArbMAI",
+      "address": "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing MAI",
+      "chainId": 42161
+    },
+    {
       "symbol": "DAI",
       "address": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
       "tags": ["underlying"],
@@ -2697,6 +2713,22 @@
       "tags": ["atokenv3"],
       "decimals": 18,
       "name": "Aave interest bearing LUSD",
+      "chainId": 10
+    },
+    {
+      "symbol": "MAI",
+      "address": "0xdfa46478f9e5ea86d57387849598dbfb2e964b02",
+      "tags": ["underlying"],
+      "decimals": 18,
+      "name": "Mai Stablecoin",
+      "chainId": 10
+    },
+    {
+      "symbol": "aOptMAI",
+      "address": "0x8ffDf2DE812095b1D19CB146E4c004587C0A0692",
+      "tags": ["atokenv3"],
+      "decimals": 18,
+      "name": "Aave interest bearing MAI",
       "chainId": 10
     }
   ]

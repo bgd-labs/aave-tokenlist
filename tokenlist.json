@@ -16,8 +16,8 @@
       "description": "Tokens that earn interest on the Aave Protocol V3"
     }
   },
-  "timestamp": "2023-06-21T00:59:09.007Z",
-  "version": { "major": 2, "minor": 0, "patch": 12 },
+  "timestamp": "2023-06-29T01:01:06.982Z",
+  "version": { "major": 2, "minor": 0, "patch": 13 },
   "tokens": [
     {
       "symbol": "USDT",
@@ -2281,6 +2281,22 @@
       "tags": ["atokenv3"],
       "decimals": 18,
       "name": "Aave interest bearing LUSD",
+      "chainId": 42161
+    },
+    {
+      "symbol": "USDC",
+      "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "tags": ["underlying"],
+      "decimals": 6,
+      "name": "USD Coin",
+      "chainId": 42161
+    },
+    {
+      "symbol": "aArbUSDCn",
+      "address": "0x724dc807b04555b71ed48a6896b6F41593b8C637",
+      "tags": ["atokenv3"],
+      "decimals": 6,
+      "name": "Aave interest bearing USDC",
       "chainId": 42161
     },
     {
